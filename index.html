@@ -1,0 +1,59 @@
+<html>
+<head><title>HHuCP - the HandHeld microController Platform</title></head>
+<body>
+<center>
+<strong>As Seen on <a href="http://www.youtube.com/watch?v=0aPSbXnQGSM&feature=BFa&list=PL7E1FAA9E63A32FDC">Adafruit's Show and Tell!</a></strong>
+</center>
+<p>
+<h3>The goal</h3>
+I often see, of course buy, some new component: a different ping sensor, a new servo, that I wish to experiment with. When the package is open and I'm faced with doing something, I find that the cost of entry...
+<ul>
+<li>Digging out an Arduino</li>
+<li>Hooking up a power supply</li>
+<li>Being tethered to a notebook for debugging output</li>
+</ul>
+...prevents me from getting around to it.
+</p>
+<p>
+<h3>The Project</h3>
+Time to change that<br/>
+<a href="img/hhucp.jpg" target="_new"><img src="img/hhucp.jpg" width="240"></a>
+The HHuCP pays homage to the Electronic kits and Microprocessor trainers of the 70s, most notably the <a href="http://www.vintage-computer.com/heathkit3400.shtml">Heathkit ET-3400 Microprocessor Trainer</a>.<br/>
+It's a <a href="http://www.pjrc.com/store/teensypp.html">Teensy++ 2.0</a> (Arduinish) microcontroller and some of the most generally useful components, pre-assembled with a large number of pins broken out for experimentation with different components microcontroller and some of the most generally useful components, pre-packaged with a large number of pins broken out for experimentation with different components.<br/>
+Included are:
+<ul>
+<li>Teensy ++ 2.0</li>
+<li>IR LED</li>
+<li>RGB LED</li>
+<li>Graphic LCD Display</li>
+<li>8 Ohm Speaker</li>
+<li>Reset Button</li>
+<li>One Toggle Pushbutton with an LED ring (lit when on)</li>
+<li>Two Momentary Pushbuttons with LED rings (lit when off)</li>
+<li>IR Sensor</li>
+<li>Ambient Light Sensor</li>
+<li>DS 1302 Clock and EPROM</li>
+<li>USB port for power, programming/debugging, or HID</li>
+<li>Exposed Power, DIO, AIO, i2c pins</li>
+</ul>
+<a href="img/pins.jpg" target="_new"><img src="img/pins.jpg" width="120"></a>
+</p>
+<p>
+<h3>Some random notes:</h3>
+The pushbuttons can be configured to be lit when on/off/always/never - to keep my options open, I ran them to a mini breadboard so that I could reconfigure them in hardware.<br/>
+<a href="img/pb_pins.jpg" target="_new"><img src="img/pb_pins.jpg" width="120"></a>
+<a href="img/pbs.jpg" target="_new"><img src="img/pbs.jpg" width="120"></a>
+<br/>
+<a href="http://www.sugru.com">Sugru</a> is the best followup to cutting holes in a cigar box with a Dremel!<br/>
+Use good/suitable wire. If one breaks off early on, bite the bullet and use different ones, you'll just have to go back and replace them later otherwise.
+<br/>
+</p>
+<p>
+<h3>Experimenting and Prototyping</h3>
+<a href="img/bus.jpg" target="_new"><img src="img/bus.jpg" width="120"></a>
+I add in external components as needed on a breadboard and run jumpers to the external bus breakout.
+</p>
+<p>
+<h3>Software</h3>
+My <a href="http://code.google.com/p/hhucp/">Demo app</a> supports the built-in components and, along some of my own libraries used therein, is on Google code.<br/>
+</p>
